@@ -71,3 +71,5 @@ footer { text-align: center; color: var(--muted); padding: 2rem 1rem; font-size:
 .arch.circle { aspect-ratio: 1 / 1; border-radius: 50%; }
 .arch-wrap.right { justify-self: end; margin-right: 6%; }
 .arch-wrap::before { content: ""; position: absolute; width: 85%; aspect-ratio: 1; border-radius: 50%; background: var(--spot); right: -4%; top: 0%; width: 100% }
+.resume-frame { width: 100%; height: 80vh; min-height: 600px; border: 0; border-radius: 18px; background: #fff; }
+.resume-frame { display: block; width: 100%; height: 1100px; border: 0; border-radius: 18px; background: #fff; }
