@@ -9,33 +9,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="theme.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
   <a class="logo" href="index.html">Rayan Akhras</a>
-  <nav aria-label="Main">
-    <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-    <a href="reel.html">Reel</a>
-    <a href="resume.html">Resume</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html" aria-current="page">Contact</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html" >About</a>
+        <!--<a href="reel.html">Reel</a>-->
+        <a href="resume.html">Resume</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
 
   </nav>
 </header>
 <main>
 <h2>Let&rsquo;s work together</h2>
 <p>For auditions, bookings, or just to say hello.</p>
-<div class="panel">
-  <h3>Email</h3>
-  <p><a href="mailto:you@example.com">rayanwakhras@gmail.com</a></p>
-  <p><a href="mailto:you@example.com">rayan.akhras@emerson.edu</a></p> <!-- Pick one -->
-  <p></p>
-  <h3>Find me online</h3>
-  <p><a href="https://www.instagram.com/rayan4arts">Instagram</a>
-    <p><a href="https://www.youtube.com/@rayan4arts">YouTube</a>
-</div>
+        <section class="hero">
+            <div>
+                <p>For auditions, bookings, or just to say hello.</p>
+
+                <div class="panel">
+                    <h3>Email</h3>
+                    <p><a href="mailto:rayanwakhras@gmail.com">rayanwakhras@gmail.com</a></p>
+                    <p><a href="mailto:rayan.akhras@emerson.edu">rayan.akhras@emerson.edu</a></p>
+                    <h3>Find me online</h3>
+                    <p><a href="https://www.instagram.com/rayan4arts" target="_blank" rel="noopener">Instagram</a></p>
+                    <p><a href="https://www.youtube.com/@rayan4arts" target="_blank" rel="noopener">YouTube</a></p>
+                </div>
+            </div>
+
+            <div class="arch-wrap">
+                <div class="arch circle" role="img" aria-label="Photo of Rayan Akhras" style="background-image: url(images/headshots/headshot3.jpg); background-position: center top;"></div>
+            </div>
+        </section>
+    </main>
 </main>
 <footer>
     <div class="social">

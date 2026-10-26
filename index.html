@@ -9,18 +9,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="theme.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
   <a class="logo" href="index.html">Rayan Akhras</a>
-  <nav aria-label="Main">
-    <a href="index.html" aria-current="page">Home</a>
-      <a href="about.html">About</a>
-    <!--<a href="reel.html">Reel</a>-->
-    <a href="resume.html">Resume</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <!--<a href="reel.html">Reel</a>-->
+        <a href="resume.html">Resume</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
   </nav>
 </header>
 <main>
@@ -28,7 +32,7 @@
   <div>
     <h1>Rayan Akhras</h1>
     <p class="tagline">Actor, Director, Dancer, Musician</p> <!-- Periods in between? -->
-    <p><!-- Replace with a one or two sentence intro about you. Replace this. Write things that I'm passionate about and see which ones i can combine into one statement about me |  -->I give voice to those who may not have the platform or means. </p>
+    <p><!-- Replace with a one or two sentence intro about you. Replace this. Write things that I'm passionate about and see which ones i can combine into one statement about me |  --> </p>
     <!--<a class="btn" href="reel.html">Watch my reel</a>-->
     <a class="btn alt" href="contact.html">Get in touch</a>
   </div>
@@ -36,9 +40,14 @@
       <div class="arch-wrap">
           <div class="arch" role="img" aria-label="Headshot of Rayan Akhras" style="background-image: url(images/headshots/headshot.jpg); background-position: center top;"></div>
       </div>
-
   </div>
 </section>
+    <div class="panel now">
+        <h3><span class="sale">Currently on Sale:</span> Emerson Dance Company &mdash; UNDERCOVER</h3>
+        <p class="when">Oct 31st & Nov 1st &middot; Semel Theatre | Emerson College, Boston</p>
+        <p>Dance showcase from Emerson Students -- myself included!.</p>
+        <a class="btn alt" href="https://purchase.emersontheatres.org/EventAvailability?EventId=39801&utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" rel="noopener">Get tickets</a>
+    </div>
 </main>
 <footer>
     <div class="social">

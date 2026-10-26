@@ -9,19 +9,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="theme.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <a class="logo" href="index.html">Rayan Akhras</a>
-  <nav aria-label="Main">
-    <a href="index.html">Home</a>
-    <a href="about.html" aria-current="page">About</a>
-    <!--<a href="reel.html">Reel</a>-->
-    <a href="resume.html">Resume</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <a class="logo" href="index.html">Rayan Akhras</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <!--<a href="reel.html">Reel</a>-->
+        <a href="resume.html">Resume</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
+    </nav>
 </header>
 <main>
   <h2>About me</h2>
@@ -29,9 +32,9 @@
   <section class="hero">
     <div>
       <!-- Write your story here. Each <p> is one paragraph. Copy a line to add more. -->
-      <p>Rayan Akhras (He/Him/His) is a Freshman BFA Theatre and Performance Major at Emerson College. He is a multi-faceted person: An actor, director, dancer, choreographer, graphic designer and more, he enjoys dabbling in all things theatre and storytelling. His most recent roles have been Collin (Poster Boy | Original Film), Jack Kelly (Newsies Jr), Melon Rind (Decomposed Theatre: The Human Trashcan), and Nick Bottom (Something Rotten Jr) as well as writing and directing his own productions.</p>
+      <p>Rayan Akhras (He/Him/His) is a Freshman BFA Theatre and Performance Major at Emerson College. He is a multi-faceted person: An actor, director, dancer, choreographer, graphic designer and more, he enjoys dabbling in all things theatre and storytelling. His most recent roles have been Collin (Poster Boy | Original Film), Jack Kelly (Newsies Jr), Melon Rind (Decomposed Theatre: The Human Trashcan), and Nick Bottom (Something Rotten Jr). As well as writing and directing his own productions, he enjoys getting involved in all the different aspects of theatre.</p>
       <p>Rayan spent his last summer working at the National Children's Theatre in Washington D.C. as a Student Teacher, helping to teach kids more about theatre and acting. He enjoys it tremendously, and cannot wait to continue in the future.</p>
-      <a class="btn" href="reel.html">Watch my reel</a>
+      <!--<a class="btn" href="reel.html">Watch my reel</a>-->
       <a class="btn alt" href="contact.html">Get in touch</a>
     </div>
     <div class="arch-wrap right">
