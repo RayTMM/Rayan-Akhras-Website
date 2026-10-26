@@ -128,3 +128,7 @@ footer { text-align: center; color: var(--muted); padding: 2rem 1rem; font-size:
   .arch-wrap { width: min(72%, 300px); margin: .5rem auto 1rem; }
   .arch-wrap::before { width: 74%; right: 10%; top: 2%; }
 }
+
+figure { margin: 0; }
+figcaption { font-size: .9rem; color: var(--muted); margin-top: .5rem; line-height: 1.4; }
+.cap-title { display: block; color: var(--ink); font-weight: 700; }
