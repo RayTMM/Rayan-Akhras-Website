@@ -11,6 +11,8 @@
   --line: #dfe6e4;
   --btn: #16263a;       /* button background */
   --btn-text: #ffffff;  /* button text */
+  .btn { background: var(--btn, #16263a); color: var(--btn-text, #ffffff); }
+  .btn.alt { background: var(--spot); color: #16263a; }
 }
 
 /* Dark: used automatically if the visitor's browser is dark, unless they chose light */
