@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design | Rayan Akhras, Actor</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta name="description" content="Graphic design work by Rayan Akhras.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="theme.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a class="logo" href="index.html">Rayan Akhras</a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <!--<a href="reel.html">Reel</a>-->
+        <a href="resume.html">Resume</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="design.html" aria-current="page">Design</a>
+        <a href="contact.html">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
+    </nav>
+</header>
+<main>
+    <h2>Graphic design</h2>
+    <p>A selection of posters, graphics, and other design work. Write one or two sentences here about what you design and who it&rsquo;s for.</p>
+
+    <!-- Portfolio: copy a <figure> for each piece. Put images in images/design/ -->
+    <div class="design-grid">
+        <figure>
+            <img src="images/design/design1.jpg" alt="Describe this design, e.g. poster for a dance showcase" loading="lazy">
+            <figcaption>
+                <span class="cap-title">Project name, Year</span>
+                Short note, e.g. poster for Emerson Dance Company
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="images/design/design2.jpg" alt="Describe this design" loading="lazy">
+            <figcaption>
+                <span class="cap-title">Project name, Year</span>
+                Short note
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="images/design/design3.jpg" alt="Describe this design" loading="lazy">
+            <figcaption>
+                <span class="cap-title">Project name, Year</span>
+                Short note
+            </figcaption>
+        </figure>
+    </div>
+
+    <div class="panel">
+        <h3>More on Instagram</h3>
+        <p>I post new stuff on Instagram.</p>
+        <a class="btn" href="https://www.instagram.com/rayan4arts" target="_blank" rel="noopener">See my Instagram</a>
+
+        <!-- OPTIONAL: show real Instagram posts on this page.
+             On a computer, open a post on instagram.com, click the three dots, choose Embed,
+             copy the code, and paste it below. Each post you paste appears here.
+             Instagram's own embed script is already included at the bottom of this page. -->
+        <div class="ig-embeds">
+            <!-- paste Instagram embed code here -->
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="social">
+        <a href="https://www.instagram.com/rayan4arts" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@rayan4arts" target="_blank" rel="noopener">YouTube</a>
+    </div>
+    <div>&copy; 2026 Rayan Akhras</div>
+</footer>
+<script async src="https://www.instagram.com/embed.js"></script>
+</body>
+</html>
